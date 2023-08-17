@@ -9,26 +9,49 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login'),
+        title: const Text('Login'),
       ),
-      body: const Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text("Login", style: TextStyle(fontSize: 37, fontWeight: FontWeight.bold)),
-            SizedBox(
-              height: 303,
-            ),
-            FormContainerWidget(
-              hintText: "Email",
-              isPasswordField: false,
-            ),
-            SizedBox(height: 10,),
-            FormContainerWidget(
-              hintText: "Password",
-              isPasswordField: true,
-            ),
-          ],
+      body: Center(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 15),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Text("Login",
+                  style: TextStyle(fontSize: 37, fontWeight: FontWeight.bold)),
+              const SizedBox(
+                height: 30,
+              ),
+              const FormContainerWidget(
+                hintText: "Email",
+                isPasswordField: false,
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+              const FormContainerWidget(
+                hintText: "Password",
+                isPasswordField: true,
+              ),
+              const SizedBox(
+                height: 30,
+              ),
+              Container(
+                width: double.infinity,
+                height: 45,
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                child: const Center(
+                    child: Text(
+                  "Login",
+                  style: TextStyle(
+                      color: Colors.white, fontWeight: FontWeight.bold),
+                )),
+              ),
+            ],
+          ),
         ),
       ),
     );
