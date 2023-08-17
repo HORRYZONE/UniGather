@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580446454434",
+    "project_id": "unigather-f87de",
+    "storage_bucket": "unigather-f87de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580446454434:android:1716256e352548c7cd4dfb",
+        "android_client_info": {
+          "package_name": "com.example.unigather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580446454434-275a2r6caotuolqmjgdpaugtu2d3qjg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA3W2P1IYcMxSdV9KAPoKKUcTd6vvWb9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580446454434-275a2r6caotuolqmjgdpaugtu2d3qjg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
